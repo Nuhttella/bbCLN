@@ -1,0 +1,83 @@
+body {
+    font-family: 'Contrail One', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Allow vertical scrolling */
+    background-image: url('https://wallpapers.com/images/hd/cute-heart-background-edhv3xo57xu9kzdk.jpg');
+    min-height: 100vh; /* Set a minimum height of 100% of the viewport height */
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.contrail-one-regular {
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #f56560;
+    font-size: 50px;
+}
+.confirmation-box {
+
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.btn {
+    background-color: #3cc1ffea;
+    font-family: "Contrail One", sans-serif;
+    border: none;
+    padding: 30px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 50px;
+    color: #f56560;
+    margin-right: 250px; /* Add space between buttons */
+}
+
+.btn:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+}
+
+.btn:hover {
+    background-color: #1c71cc;
+}
+.gallery-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Automatically fit columns with a minimum width of 200px */
+    grid-gap: 10px; /* Add space between images */
+}
+
+.gallery img {
+    width: 100%; /* Ensure images fill their grid cell */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add rounded corners for aesthetics */
+}
